@@ -23,7 +23,7 @@ const ContactForm = () => {
     return(
         <div className=" bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
             <Header />
-        <div className="scale-80 w-full h-fit m-6 mt-0 mb-0 flex justify-center items-center p-0">
+        <div className="scale-80 w-full h-fit  mt-0 mb-0 flex justify-center items-center p-0">
             <div className="max-w-150 min-w-80 border border-orange-500 p-10 rounded-2xl shadow1">
                 <div className="">
                     <div className="flex">

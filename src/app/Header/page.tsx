@@ -14,15 +14,17 @@ const Header = () => {
                     <li className="cursor-pointer"><Link href="/ContactForm">Contact</Link></li>
                 </ul>
             </div>
-            <div className="Header-Bottom flex m-0 p-2  justify-between items-center fixed bottom-0 z-20 h-[7vh] w-full bg-slate-800">
+            <div className="Header-Bottom hidden">
+            <div className="flex m-0 p-2 justify-between items-center fixed bottom-0 z-20 h-[7vh] w-full bg-slate-800">
                 <ul className="flex justify-between items-center w-full ">
-                    <li className="cursor-pointer"><Link href="/"><Home /><p className="text-sm">Home</p></Link></li>
-                    <li className="cursor-pointer"><Link href="/About"><UsersRound /><p>About</p></Link></li>
-                    <li className="cursor-pointer"><Link href="/Skills"><CodeXml /><p>Skills</p></Link></li>
-                    <li className="cursor-pointer"><Link href="/Project"><FolderOpen /><p>Projects</p></Link></li>
-                    <li className="cursor-pointer"><Link href="/Experience"><BriefcaseBusiness /><p>Experience</p></Link></li>
-                    <li className="cursor-pointer"><Link href="/ContactForm">< Headset /><p>Contact</p></Link></li>
+                    <li className="cursor-pointer active:scale-90 "><Link href="/"><Home /><p className="text">Home</p></Link></li>
+                    <li className="cursor-pointer active:scale-90 "><Link href="/About"><UsersRound /><p className="text">About</p></Link></li>
+                    <li className="cursor-pointer active:scale-90 "><Link href="/Project"><FolderOpen className="ml-1"/><p className="text">Projects</p></Link></li>
+                    <li className="cursor-pointer active:scale-90 "><Link href="/Skills"><CodeXml /><p className="text">Skills</p></Link></li>
+                    <li className="cursor-pointer active:scale-90 "><Link href="/Experience"><BriefcaseBusiness className="ml-3"/><p className="text">Experience</p></Link></li>
+                    <li className="cursor-pointer active:scale-90  fixed bottom-16 right-5 bg-slate-700/5 p-2 rounded-2xl shadow bg-trans shadow-slate-900"><Link href="/ContactForm">< Headset className="ml-1"/><p className="text">Contact</p></Link></li>
                 </ul>
+            </div>
             </div>
         </div>
     );

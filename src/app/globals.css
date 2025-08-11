@@ -41,6 +41,9 @@ body {
 .shadow2:hover{
   box-shadow: inset 0 0 10px rgb(255, 111, 0) , 0 0 20px rgb(0, 0, 0);
 }
+.text{
+  font-size: 10px;
+}
 .move{
     animation: rotating 5s linear 0s infinite running alternate;
     animation: name duration timing-function delay iteration-count direction fill-mode;
@@ -98,12 +101,28 @@ body {
   }
   .Header>h3{
       font-size: 30px;
+      padding: 0;
+      margin-left: -25px;
     }
   .Header{
     background-color: transparent;
   }
   .Header-Bottom{
-    display: block;
+    display: flex;
 
+  }
+  .Home1>div{
+    height: 160vh;
+    background: linear-gradient(
+    to bottom right,
+    #0f172a, /* slate-900 */
+    #1e293b, /* slate-800 */
+    #0f172a  /* slate-900 */
+  );
+  margin-bottom: -10px;
+  .HomeImg{
+    width: 320px;
+    height: 384px;
+  }
   }
 }

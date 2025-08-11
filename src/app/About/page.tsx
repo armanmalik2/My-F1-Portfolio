@@ -36,7 +36,7 @@ const About2 = () => {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(168,85,247,0.1),transparent_50%)]"></div>
       
       {/* Content */}
-      <div className="relative z-1 px-4 py-20">
+      <div className="relative z-1 px-4 py-20 mt-16">
         <div className="max-w-7xl mx-auto">
           
           {/* Header Section */}
@@ -66,7 +66,7 @@ const About2 = () => {
               <div className="relative">
                 <div className="w-80 h-96 mx-auto lg:mx-0 rounded-2xl overflow-hidden bg-gradient-to-br from-slate-800 to-slate-700 border border-slate-700/50">
                   <img
-                    src="https://imag es.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=face"
+                    src="1746285240812.jpg"
                     alt="Profile"
                     className="w-full h-full object-cover opacity-90"
                   />
@@ -107,11 +107,11 @@ const About2 = () => {
                 <div className="flex flex-wrap gap-4 pt-6">
                   <button className="group flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25">
                     <Download size={20} />
-                    Download Resume
+                    <a href="/resume.pdf" download >Download Resume</a>
                   </button >
                   
                   <button className="flex items-center gap-3 px-8 py-4 bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 hover:border-slate-600/50 text-white font-semibold rounded-xl transition-all duration-300 hover:bg-slate-800/70">
-                    Let's Connect
+                    <a href="/ContactForm" >Let's Connect</a>
                   </button>
                 </div>
               </div>

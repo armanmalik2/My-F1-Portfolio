@@ -1,3 +1,4 @@
+import { Briefcase, BriefcaseBusiness, CodeXml, FolderOpen, Headset, Home, SkipBack, UsersRound } from "lucide-react";
 import Link from "next/link";
 const Header = () => {
     return(
@@ -13,14 +14,14 @@ const Header = () => {
                     <li className="cursor-pointer"><Link href="/ContactForm">Contact</Link></li>
                 </ul>
             </div>
-            <div className="Header-Bottom hidden m-0 p-2  justify-between items-center fixed bottom-0 z-20 h-[7vh] w-full bg-slate-800">
+            <div className="Header-Bottom flex m-0 p-2  justify-between items-center fixed bottom-0 z-20 h-[7vh] w-full bg-slate-800">
                 <ul className="flex justify-between items-center w-full ">
-                    <li className="cursor-pointer"><Link href="/">Home</Link></li>
-                    <li className="cursor-pointer"><Link href="/About">About</Link></li>
-                    <li className="cursor-pointer"><Link href="/Skills">Skills</Link></li>
-                    <li className="cursor-pointer"><Link href="/Project">Projects</Link></li>
-                    <li className="cursor-pointer"><Link href="/Experience">Experience</Link></li>
-                    <li className="cursor-pointer"><Link href="/ContactForm">Contact</Link></li>
+                    <li className="cursor-pointer"><Link href="/"><Home /><p className="text-sm">Home</p></Link></li>
+                    <li className="cursor-pointer"><Link href="/About"><UsersRound /><p>About</p></Link></li>
+                    <li className="cursor-pointer"><Link href="/Skills"><CodeXml /><p>Skills</p></Link></li>
+                    <li className="cursor-pointer"><Link href="/Project"><FolderOpen /><p>Projects</p></Link></li>
+                    <li className="cursor-pointer"><Link href="/Experience"><BriefcaseBusiness /><p>Experience</p></Link></li>
+                    <li className="cursor-pointer"><Link href="/ContactForm">< Headset /><p>Contact</p></Link></li>
                 </ul>
             </div>
         </div>

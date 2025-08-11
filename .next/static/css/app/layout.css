@@ -310,6 +310,9 @@
   .right-4 {
     right: calc(var(--spacing) * 4);
   }
+  .bottom-0 {
+    bottom: calc(var(--spacing) * 0);
+  }
   .left-4 {
     left: calc(var(--spacing) * 4);
   }
@@ -333,9 +336,6 @@
   }
   .m-6 {
     margin: calc(var(--spacing) * 6);
-  }
-  .m-\[2vw\] {
-    margin: 2vw;
   }
   .mx-auto {
     margin-inline: auto;
@@ -412,6 +412,9 @@
   .grid {
     display: grid;
   }
+  .hidden {
+    display: none;
+  }
   .inline-flex {
     display: inline-flex;
   }
@@ -469,6 +472,9 @@
   .h-96 {
     height: calc(var(--spacing) * 96);
   }
+  .h-\[7vh\] {
+    height: 7vh;
+  }
   .h-\[10vh\] {
     height: 10vh;
   }
@@ -492,6 +498,9 @@
   }
   .w-2 {
     width: calc(var(--spacing) * 2);
+  }
+  .w-2\/5 {
+    width: calc(2/5 * 100%);
   }
   .w-3 {
     width: calc(var(--spacing) * 3);
@@ -615,6 +624,9 @@
   }
   .gap-16 {
     gap: calc(var(--spacing) * 16);
+  }
+  .gap-\[5\%\] {
+    gap: 5%;
   }
   .space-y-3 {
     :where(& > :not(:last-child)) {
@@ -1540,6 +1552,43 @@ body {
   }
   100% {
     margin: 0 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .Header>ul {
+    width: 40%;
+    gap: 5%;
+  }
+}
+@media (max-width: 1000px) {
+  .Header>ul {
+    width: 45%;
+    gap: 4%;
+  }
+}
+@media (max-width: 850px) {
+  .Header>ul {
+    width: 50%;
+  }
+}
+@media (max-width: 750px) {
+  .Header>ul {
+    width: 55%;
+    gap: 3%;
+  }
+}
+@media (max-width: 600px) {
+  .Header>ul {
+    display: none;
+  }
+  .Header>h3 {
+    font-size: 30px;
+  }
+  .Header {
+    background-color: transparent;
+  }
+  .Header-Bottom {
+    display: block;
   }
 }
 @property --tw-scale-x {

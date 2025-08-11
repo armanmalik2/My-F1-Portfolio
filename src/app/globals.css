@@ -68,3 +68,42 @@ body {
     margin: 0 50px;
   }
 }
+
+@media (max-width: 1200px){
+  .Header>ul{
+    width: 40%;
+    gap: 5%;
+  }
+}
+@media (max-width: 1000px){
+  .Header>ul{
+    width: 45%;
+    gap: 4%;
+  }
+}
+@media (max-width: 850px){
+  .Header>ul{
+    width: 50%;
+  }
+}
+@media (max-width: 750px){
+  .Header>ul{
+    width: 55%;
+    gap:3%;
+  }
+}
+@media (max-width: 600px){
+    .Header>ul{
+      display: none;
+  }
+  .Header>h3{
+      font-size: 30px;
+    }
+  .Header{
+    background-color: transparent;
+  }
+  .Header-Bottom{
+    display: block;
+
+  }
+}

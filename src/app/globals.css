@@ -54,7 +54,7 @@ body {
   0%{
    transform: translateX(0);
   }
-  100%{
+  50%{
     transform: translateX(-1280px);
   }
 }

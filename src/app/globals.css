@@ -52,10 +52,10 @@ body {
 }
 @keyframes rotating{
   0%{
-   transform: translateX(0);
+   transform: translateX(-1280px);
   }
   50%{
-    transform: translateX(1280px);
+    transform: translateX(0px);
   }
 }
 .moe2{

@@ -55,7 +55,7 @@ body {
    transform: translateX(0);
   }
   50%{
-    transform: translateX(-1280px);
+    transform: translateX(1280px);
   }
 }
 .moe2{

@@ -52,13 +52,13 @@ body {
 }
 @keyframes rotating{
   0%{
-   left: -50%;
+   transform: translateX(0);
   }
   100%{
-    left: 0%;
+    transform: translateX(-1280px);
   }
 }
-.move2{
+.moe2{
     animation: rotting1 3s ease-in-out 1s infinite alternate;
     animation: name duration timing-function delay iteration-count direction fill-mode;
        

@@ -45,7 +45,7 @@ body {
   font-size: 10px;
 }
 .move{
-    animation: rotating 10s linear infinite;
+    animation: rotating 10s linear infinite running;
     animation: name duration timing-function delay iteration-count direction fill-mode;
     position:absolute;
     top: 70vh;    

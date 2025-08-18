@@ -74,6 +74,7 @@
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     --color-red-700: oklch(50.5% 0.213 27.518);
     --color-orange-500: oklch(70.5% 0.213 47.604);
     --color-orange-700: oklch(55.3% 0.195 38.402);
@@ -304,6 +305,9 @@
   }
   .top-0 {
     top: calc(var(--spacing) * 0);
+  }
+  .top-2\/12 {
+    top: calc(2/12 * 100%);
   }
   .top-4 {
     top: calc(var(--spacing) * 4);
@@ -1033,6 +1037,9 @@
   .text-left {
     text-align: left;
   }
+  .font-serif {
+    font-family: var(--font-serif);
+  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -1575,20 +1582,20 @@ body {
   font-size: 10px;
 }
 .move {
-  animation: rotating 5s linear 0s infinite running alternate;
+  animation: rotating 7s linear infinite running;
   animation: name duration timing-function delay iteration-count direction fill-mode;
   position: absolute;
   top: 70vh;
 }
 @keyframes rotating {
   0% {
-    left: -50%;
+    transform: translate(0px);
   }
   100% {
-    left: 0%;
+    transform: translate(-1200px);
   }
 }
-.move2 {
+.moe2 {
   animation: rotting1 3s ease-in-out 1s infinite alternate;
   animation: name duration timing-function delay iteration-count direction fill-mode;
 }
@@ -1647,10 +1654,14 @@ body {
     #0f172a  
   );
     margin-bottom: -10px;
-    .HomeImg {
-      width: 320px;
-      height: 384px;
-    }
+  }
+  .HomeImg {
+    width: 320px;
+    height: 384px;
+  }
+  .SkillsText>p {
+    width: 80%;
+    font-size: small;
   }
 }
 @property --tw-scale-x {
@@ -1938,3 +1949,4 @@ body {
     }
   }
 }
+

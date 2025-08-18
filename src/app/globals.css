@@ -45,17 +45,17 @@ body {
   font-size: 10px;
 }
 .move{
-    animation: rotating 10s linear infinite;
+    animation: rotating 7s linear infinite running ;
     animation: name duration timing-function delay iteration-count direction fill-mode;
     position:absolute;
     top: 70vh;    
 }
 @keyframes rotating{
   0%{
-   transform: translateX(-1280px);
+   transform: translate(0px);
   }
-  50%{
-    transform: translateX(1280px);
+  100%{
+    transform: translate(-1200px);
   }
 }
 .moe2{
@@ -119,10 +119,13 @@ body {
     #1e293b, /* slate-800 */
     #0f172a  /* slate-900 */
   );
-  margin-bottom: -10px;
+  margin-bottom: -10px;}
   .HomeImg{
     width: 320px;
     height: 384px;
   }
+  .SkillsText>p{
+    width: 80%;
+    font-size:small;
   }
 }

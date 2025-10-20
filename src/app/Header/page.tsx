@@ -11,7 +11,7 @@ const Header = () => {
                     <li className="cursor-pointer"><Link href="/Skills">Skills</Link></li>
                     <li className="cursor-pointer"><Link href="/Project">Projects</Link></li>
                     <li className="cursor-pointer"><Link href="/Experience">Experience</Link></li>
-                    <li className="cursor-pointer"><Link href="/ContactForm">Contact</Link></li>
+                    <li className="cursor-pointer"><Link href="/Contact">Contact</Link></li>
                 </ul>
             </div>
             <div className="Header-Bottom hidden">
@@ -22,7 +22,7 @@ const Header = () => {
                     <li className="cursor-pointer active:scale-90 "><Link href="/Project"><FolderOpen className="ml-1"/><p className="text">Projects</p></Link></li>
                     <li className="cursor-pointer active:scale-90 "><Link href="/Skills"><CodeXml /><p className="text">Skills</p></Link></li>
                     <li className="cursor-pointer active:scale-90 "><Link href="/Experience"><BriefcaseBusiness className="ml-3"/><p className="text">Experience</p></Link></li>
-                    <li className="cursor-pointer active:scale-90  fixed bottom-16 right-5 bg-slate-700/5 p-2 rounded-2xl shadow bg-trans shadow-slate-900"><Link href="/ContactForm">< Headset className="ml-1"/><p className="text">Contact</p></Link></li>
+                    <li className="cursor-pointer active:scale-90  fixed bottom-16 right-5 bg-slate-700/5 p-2 rounded-2xl shadow bg-trans shadow-slate-900"><Link href="/Contact">< Headset className="ml-1"/><p className="text">Contact</p></Link></li>
                 </ul>
             </div>
             </div>

@@ -5,6 +5,7 @@ import Experience from "./Experience/page";
 import ContactForm from "./ContactForm/page";
 import ProjectsSection from "./Project/page";
 import About2 from "./About/page";
+import Contact from "./Contact/page";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <Skills />
       <ProjectsSection />
       <Experience />
-      <ContactForm />
+      <Contact />
       </div>
     </>
   );

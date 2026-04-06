@@ -5,8 +5,8 @@ import Header from '../Header/page';
 
 const About2 = () => {
   const skills = [
-    { name: 'Frontend Development', percentage: 95, icon: Code },
-    { name: 'Backend Development', percentage: 88, icon: Zap },
+    { name: 'Full Stack (MERN) Development', percentage: 95, icon: Code },
+    { name: 'Data Sructure & Algorithms', percentage: 90, icon: Zap },
     { name: 'UI/UX Design', percentage: 82, icon: Heart },
     { name: 'Project Management', percentage: 90, icon: Target }
   ];
@@ -19,10 +19,38 @@ const About2 = () => {
   ];
 
   const technologies = [
-    'JavaScript', 'TypeScript', 'React', 'Tailwind CSS', 'Next.js', 'Node.js', 
-    'Python', "Framer Motion", "Machine Learning" , 'Firebase', "Supabase",
-    'MongoDB', 'PostgreSQL', 'AWS', 'FastAPI',"Vercel","Lucide icons", "more+"
-  ];
+  // Core Languages
+  'JavaScript', 'TypeScript', 'Python', 'SQL',
+
+  // Frontend
+  'React.js', 'Next.js', 'HTML5', 'CSS3', 'Tailwind CSS',
+  'Framer Motion', 'Lucide React', 'Responsive Design',
+
+  // Backend
+  'Node.js', 'Express.js', 'REST APIs',
+  'Authentication (JWT)',
+
+  // Databases
+  'MongoDB', 'PostgreSQL', 'Mongoose',
+
+  // Real-Time & Tools
+  'Socket.IO', 'WebSockets', 'Supabase',
+
+  // Machine Learning / AI
+  'Machine Learning', 'Scikit-learn', 'Pandas', 'NumPy',
+
+  // Cloud & Deployment
+  'Vercel', 'Netlify', 'Docker (Basics)',
+
+  // Version Control & Dev Tools
+  'Git', 'GitHub', 'Postman', 'VS Code',
+
+  // Concepts
+  'Data Structures & Algorithms', 'OOP',
+
+  // Others
+  'Problem Solving', 'Debugging', 'Performance Optimization', 'many more+'
+];
   
   const Resume = () => {
       return(<h1></h1>);
@@ -84,30 +112,29 @@ const About2 = () => {
                 
                 <div className="space-y-4 text-slate-300 leading-relaxed">
                   <p>
-                    I'm a passionate full-stack developer with over 3 years of experience creating 
-                    digital solutions that make a difference. My journey started with a curiosity 
-                    about how things work, and it has evolved into a career dedicated to building 
-                    innovative web applications.
+                    B.Tech Computer Science student and full-stack developer skilled in the MERN stack 
+                    and Next.js. Strong in Data Structures and Algorithms (Java) with experience 
+                    building scalable web apps, REST APIs, and secure authentication systems.
                   </p>
                   
                   <p>
-                    I specialize in modern JavaScript frameworks, cloud technologies, and creating 
-                    seamless user experiences. When I'm not coding, you'll find me exploring new 
-                    technologies, contributing to open-source projects, or enjoying a good cup of coffee 
-                    while brainstorming the next big idea.
+                    Developed real-world projects including a real-time chat app (Socket.io) and an 
+                    AI-powered finance tracker. Passionate about writing efficient, maintainable 
+                    code and solving practical problems through technology
+                  </p>
+                  <p>
+                    Strong foundation in Data Structures and Algorithms using Java, with a focus on 
+                    writing optimized and efficient solutions. Experienced in solving complex 
+                    problems and improving algorithmic thinking through consistent practice
                   </p>
                   
-                  <p>
-                    I believe in writing clean, maintainable code and creating products that not only 
-                    look great but also solve real-world problems. Let's build something amazing together!
-                  </p>
                 </div>
 
                 {/* CTA Button */}
                 <div className="flex flex-wrap gap-4 pt-6">
                   <button className="group flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25">
                     <Download size={20} />
-                    <a href="/resume.pdf" download >Download Resume</a>
+                    <a href="/Arman_Malik_Software_Engineer_Resume.pdf" download >Download Resume</a>
                   </button >
                   
                   <button className="flex items-center gap-3 px-8 py-4 bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 hover:border-slate-600/50 text-white font-semibold rounded-xl transition-all duration-300 hover:bg-slate-800/70">
@@ -210,7 +237,7 @@ const About2 = () => {
               </div>
               
               <button className="group flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-semibold rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25">
-                Get In Touch
+                <a href="/ContactForm" >Get In Touch</a>
                 <Heart className="transform group-hover:scale-110 transition-transform duration-200" size={20} />
               </button>
             </div>

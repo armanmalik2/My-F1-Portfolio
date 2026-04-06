@@ -10,7 +10,7 @@ import Contact from "./Contact/page";
 export default function Home() {
   return (
     <>
-    <div>
+    <div className="bg-gradient-to-br from-slate-900 to-slate-900">
       <Header />
       <Home1 />
       <About2 />

@@ -6,63 +6,64 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "FinTrack AI Based Finance Tracker",
-      description: "Real-time financial analytics dashboard with interactive charts, portfolio tracking, and automated reporting system.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&crop=center",
-      tags: ["React" , "Node.js" , "Express.js", "AWS" , "OpenAI" , "Python", "FastAPI"],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "AI/ML"
+      title: "Fam Chat - Real-Time Chat & Connection WebApp (Socket io)",
+      description: "Developed a secure real-time chat app using Socket.io for instant messaging and presence tracking, integrated with JWT authentication and encryption for data privacy.",
+      // image: "https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmluYW5jZXxlbnwwfHwwfHx8MA%3D%3D",
+      image: "famchat.png",
+      tags: ["React" ,"Node.js", "Express.js", "MongoDB", "Socket.io", "Tailwind CSS", "JWT", "Vercel", "Render.com"],
+      liveUrl: "https://famchatt.vercel.app",
+      githubUrl: "",
+      category: "Full Stack"
     },
     {
       id: 2,
-      title: "Food Delivery Platform",
-      description: "Full-stack food delivery solution with modern UI, secure payments, and real-time inventory management. Built for scalability and performance.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop&crop=center",
-      tags: ["React.js", "TypeScript" , "Framer Motion" , "Tailwind"],
-      liveUrl: "#",
+      title: "FinTrack AI Based Finance Tracker",
+      description: "FinTrack is a smart AI-powered finance management website  that helps users track expenses, manage budgets, and monitor transactions in real time. It includes secure authentication, intelligent spending insights, all built on a scalable architecture for a fast and reliable user experience.",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&crop=center",
+      tags: ["React" , "Node.js" , "Express.js", "AI/ML", "AWS" , "OpenAI" , "Python", "FastAPI"],
+      liveUrl: "# Hackathon",
+      githubUrl: "#",
+      category: "AI/ML+Full Stack"
+    },
+    {
+      id: 3,
+      title: "School Management System - (Multi-Tenancy + RBAC)",
+      description: "Built a multi-tenant education management platform with RBAC (admin/teacher/student), real-time notifications, attendance tracking, and performance analytics.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoG5SnCjfdu0Gm4qq4fpDX1z-R8D4w-d9fxw&s",
+      tags: ["React", "TypeScript", "Node.js", "Express.js", "Postgres", "Tailwind CSS", "SASS", "Docker", "Redis", "many more"],
+      liveUrl: "# InternShip",
       githubUrl: "#",
       category: "Full Stack"
     },
     {
-      id: 3,
-      title: "AI Expence Predictor",
-      description: "A smart expense prediction app that takes year and month as input and predicts average monthly expenses using Python and machine learning techniques.",
-      image: "https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmluYW5jZXxlbnwwfHwwfHx8MA%3D%3D",
-      tags: ["React" , "Machine Learning", "Python", "FastAPI" , "Render.com"],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "AI/ML"
-    },
-    {
       id: 4,
-      title: "Netflix Trailer Platform",
-      description: "A Netflix-inspired streaming platform with modern UI, user authentication, dynamic movie listings using TMDB API, responsive design, and seamless video playback experience.",
-      image: "https://images.unsplash.com/photo-1717295248230-93ea71f48f92?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bmV0ZmxpeCUyMGNsb25lfGVufDB8fDB8fHww",
-      tags: ["React", "Tailwind CSS", "TMDB API", "Supabase", "Vercel"],
-      liveUrl: "#",
+      title: "Hisab Khata",
+      description: "Hisab Khata is a modern digital ledger app for tracking credits and debits with real-time sync. It includes secure authentication, customer-wise transaction management, and automatic balance updates, ensuring a fast, reliable, and user-friendly financial tracking experience.",
+      image: "hisabkhata.png",
+      tags: ["Vite" ,"React" ,"Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT", "Vercel"],
+      liveUrl: "https://hisab-manager.vercel.app/login",
       githubUrl: "#",
       category: "Full Stack"
     },
     {
       id: 5,
-      title: "Tic-Tac-Toe",
-      description: "A classic Tic Tac Toe game built with modern UI, two-player support, win detection logic, and responsive design for smooth gameplay across devices.",
-      image: "https://images.unsplash.com/photo-1668901382969-8c73e450a1f5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGljJTIwdGFjJTIwdG9lfGVufDB8fDB8fHww",
-      tags: ["React", "Tailwind CSS", "TypeScript", "Vercel"],
-      liveUrl: "#",
+      title: "QuizNexus",
+      description: "QuizNexus is a real-time quiz platform featuring live quizzes, instant chat, and dynamic leaderboards, delivering a fast, competitive, and interactive user experience",
+      image: "QuizNexus.png",
+      tags: ["React" ,"Node.js", "Express.js", "MongoDB", "Socket.io", "Tailwind CSS", "JWT", "Vercel", "Render"],
+      liveUrl: "https://50mcq.vercel.app/",
       githubUrl: "#",
-      category: "Frontend"
+      category: "Full Stack"
     },
     {
       id: 6,
-      title: "Modern TO-DO",
+      title: "Personal Product selling site",
       description: "A sleek, responsive modern To-Do List app with real-time updates, intuitive UI, task categorization, and smooth animations—designed for seamless productivity and user experience.",
-      image: "https://plus.unsplash.com/premium_photo-1683309568772-57011d6c1b7b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG8lMjBkb3xlbnwwfHwwfHx8MA%3D%3D",
-      tags: ["React.js", "Typescript", "Tailwind", "Framer Motion", "Lucide icons"],
-      liveUrl: "#",
+      image: "ecomsite.png",
+      tags: ["React" ,"Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT", "Vercel"],
+      liveUrl: "https://personal-ecom.vercel.app/",
       githubUrl: "#",
-      category: "Frontend"
+      category: "Full Stack"
     }
   ];
 
@@ -110,7 +111,7 @@ const ProjectsSection = () => {
               >
                 {/* Category Badge */}
                 <div className="absolute top-4 left-4 z-10">
-                  <span className="px-3 py-1 bg-blue-500/20 backdrop-blur-sm border border-blue-400/30 text-blue-300 rounded-full text-xs font-semibold">
+                  <span className="px-3 py-1 bg-blue-500/80 backdrop-blur-sm border border-blue-400/30 text-blue-300 rounded-full text-xs font-semibold">
                     {project.category}
                   </span>
                 </div>
@@ -172,13 +173,20 @@ const ProjectsSection = () => {
                   {/* Bottom Actions */}
                   <div className="flex items-center justify-between pt-4 border-t border-slate-700/50">
                     <div className="flex gap-4">
-                      <a
+                      {project.liveUrl.split(' ')[0] !== '#' ? <a
                         href={project.liveUrl}
                         className="flex items-center gap-2 text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors duration-200"
                       >
                         <Zap size={14} />
                         Live Demo
-                      </a>
+                      </a> :
+                      <p
+                        className="flex items-center gap-2 text-gray-400 hover:text-gray-300 text-sm font-medium transition-colors duration-200"
+                      >
+                        <Zap size={14} />
+                        Live Demo Not available ({project.liveUrl.split(' ')[1]} Project)
+                      </p>
+                      }
                       <a
                         href={project.githubUrl}
                         className="flex items-center gap-2 text-slate-400 hover:text-slate-300 text-sm font-medium transition-colors duration-200"
